@@ -1,0 +1,42 @@
+.intro-text{
+    width: 30%;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: 0.5s all ease-in-out;
+}
+
+.thunder {
+    opacity: 0;
+    transform: scale(1);
+    transition: 0.5s all ease-in-out;
+}
+
+
+header img {
+    width: 100%;
+    height: 100vh;
+}
+
+h2{
+    text-align: center;
+}
+
+.intro-content{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin: 10rem;
+    float: left;
+}
+
+
+.intro-appear{
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.intro-thunder{
+    opacity: 1;
+    transform: scale(1.5);
+    
+}

@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    min-height: 100vh;
+    background: linear-gradient(240deg, #834d4d, #503d3d);
+    position: relative;
+    color: white;
+    font-family: sans-serif;
+    z-index: -1;
+}
+.intro-text h1{
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+.intro-text h3 {
+    font-size: 35px;
+}
+
+.intro-text{
+    top: 50%;
+    left: 20%;
+    transform: translate(-20%, -50%);
+    position: absolute;
+}
+
+.chair{
+    height: 700px;
+    position: absolute;
+    top: 90%;
+    right: 10%;
+    transform: translate(-10%, -90%);
+}
+
+.big-rose{
+    position: absolute;
+    height: 200px;
+    top: 10%;
+    right: 40%;  
+}
+.small-rose {
+    height: 100px;
+    position: absolute;
+    top: 30%;
+    right: 10%;
+}
+section{
+    min-height: 100vh;
+    color: #934d4d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-family: sans-serif;
+    background-color: lightslategray;
+
+}
